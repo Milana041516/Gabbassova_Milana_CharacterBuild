@@ -108,4 +108,85 @@ footer {
     top: 100%;
 }
 
+.lightbox {
+    position: absolute;
+    top: 0;
+    left: 0;
 
+    width: 100vw;
+    height: 100vh;
+
+    background-color: rgba(0, 0, 0, 0.85);
+    background-image: url('../images/Cap_LB_Bg.png');
+    background-repeat: no-repeat;
+
+    background-size: 75vh;
+    background-position: 40px bottom;
+    display: none;
+
+}
+
+#lightbox1 {
+    background-image: url('../images/amber2.png');
+}
+
+#lightbox2 {
+    background-image: url('../images/patricia2.png');
+}
+
+#lightbox3 {
+    background-image: url('../images/nina2.png');
+}
+
+#lightbox4 {
+    background-image: url('../images/fabian2.png');
+}
+
+#lightbox5 {
+    background-image: url('../images/alfie2.png');
+}
+
+#lightbox6 {
+    background-image: url('../images/mick2.png');
+}
+
+
+
+.lightbox_close {
+    position: absolute;
+    top: 20px;
+    right: 5%;
+
+    color: white;
+    font-size: 36px;
+
+    text-decoration: none;
+    font-weight: bolder;
+    transition: all .5s ease-in-out;
+
+    
+}
+
+.lightbox_close:hover {
+    opacity: 0.5;
+    color: red;
+    
+}
+
+.lightbox article {
+    width: 55%;
+    margin-left: 40%;
+    padding-top: 50px;
+}
+
+.lb_text, .lb_heading {
+    text-align: left;
+}
+
+.lb_text {
+    line-height: 26px;
+}
+
+.lightbox:target {
+    display: block;
+}
