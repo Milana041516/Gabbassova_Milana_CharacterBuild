@@ -10,11 +10,11 @@ Homework 2 for Multimedia Authoring
 
 ## History
 
-October 1st, 20222
+November 9th 2023
 
 ## Credits
 
-Mirdan Assi, Leila Alkbari
+Milana Gabbassova
 
 ## License
 
